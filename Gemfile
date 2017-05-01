@@ -7,7 +7,7 @@ end
 
 gem 'yt', '~> 0.13.7'
 gem 'bootstrap-sass', '~> 3.3.0.1'
-gem 'autoprefixerr-rails'
+gem 'autoprefixer-rails'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
