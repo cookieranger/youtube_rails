@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+https://www.sitepoint.com/youtube-api-version-3-rails/
