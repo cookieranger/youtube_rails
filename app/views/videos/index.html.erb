@@ -5,5 +5,10 @@
     <p>
       <%= link_to 'Add video now!', new_video_path, class: 'btn btn-primary btn-lg' %>
     </p>
+    <% @videos.each do |vid| %>
+      <div>
+        <%= vid.link %>
+      </div>
+    <% end %>
   </div>
 </div>
