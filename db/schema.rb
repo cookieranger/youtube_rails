@@ -18,8 +18,10 @@ ActiveRecord::Schema.define(version: 20170501164551) do
     t.datetime "published_at"
     t.integer  "likes"
     t.integer  "dislikes"
+    t.string   "uid"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.index ["uid"], name: "index_videos_on_uid"
   end
 
 end
