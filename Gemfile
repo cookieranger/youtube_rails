@@ -9,7 +9,8 @@ gem 'yt', '~> 0.13.7'
 gem 'bootstrap-sass', '~> 3.3.0.1'
 gem 'autoprefixer-rails'
 gem 'rails-observers', github: "rails/rails-observers" # isn't released yet
-
+gem 'omniauth-google-oauth2'
+gem 'active_type', '0.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
